@@ -4,7 +4,7 @@ Current issues (which anyone else is free to send a pull request for):
 
 1. Only configurable by modifying constants in the code.
 2. Unix dependencies (jQuery/jsdom and `curl`).
-3. While not as unreliable as Web scraping, this does still carry a dependency on the TradeStation user authentication form, which could hypothetically change at any time.
+3. While not as unreliable as browser automation, this does still carry a dependency on the TradeStation user authentication form, which could hypothetically change at any time.
 
 For more information, see:
 
