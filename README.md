@@ -10,4 +10,3 @@ For more information, see:
 
 * http://tradestation.com/
 * http://tradestation.github.io/webapi-docs/
-* 
