@@ -130,7 +130,7 @@ exports.getAccount	= function (callback) {
 				1: key,
 				2: authHeader
 			}), function (err, data) {
-				callback({key: key, balance: parseFloat(JSON.parse(data)[0]['RealTimeAccountBalance'])});
+				callback({key: key, balance: parseFloat(JSON.parse(data)[0].RealTimeAccountBalance || 0)});
 			});
 		});
 	});
